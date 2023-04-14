@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Wafey/Wafey/bin/Debug
+/Wafey/Wafey/obj
+/Wafey/UnitTestsWafey/bin/Debug
+/Wafey/UnitTestsWafey/obj/Debug
+Wafey/UnitTestsWafey/obj/Debug/
+/Wafey/packages
+/Wafey/.vs/Wafey/v16
+/.vs
+Wafey/UnitTestsWafey/obj/Debug/UnitTestsWafey.csproj.CoreCompileInputs.cache
+Wafey/UnitTestsWafey/obj/Debug/UnitTestsWafey.csprojAssemblyReference.cache

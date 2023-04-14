@@ -1,0 +1,21 @@
+﻿<Window x:Class="Wafey.PlaylistNameDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wafey"
+        mc:Ignorable="d"
+        Title="Create a playlist" Height="150" Width="350"
+        ResizeMode="CanMinimize" Icon="Images/Wafey logo.png">
+    <Grid Background="#FF2B2B2B">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="157*"/>
+            <ColumnDefinition Width="185*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="TextBoxPlaylistName" HorizontalAlignment="Left" Height="23" Margin="97,27,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178" Grid.ColumnSpan="2" KeyDown="TextBoxPlaylistName_KeyDown" TextChanged="TextBoxPlaylistName_TextChanged"/>
+        <Label Content="Playlist name:" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Foreground="#FF3594CB"/>
+        <Button x:Name="ButtonNameCancel" Content="Cancel" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" Width="75" Click="ButtonNameCancel_Click"/>
+        <Button x:Name="ButtonNameCreate" Content="Create" HorizontalAlignment="Left" Margin="100.497,89,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.504,0.633" Grid.Column="1" Click="ButtonNameCreate_Click"/>
+        <Label FontSize="9" Content="(Max 14 characters)" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" Foreground="#FF88CDFB" Width="87"/>
+    </Grid>
+</Window>
